@@ -1,0 +1,14 @@
+﻿<Project>
+    <PropertyGroup>
+        <ModName>$(RootNamespace)</ModName>
+        <ModAuthor>Millzy</ModAuthor>
+        <ModVersion>4.0.0</ModVersion>
+        <ModDescription>A dependency injection service for BONELAB.</ModDescription>
+        <ModId>$(ModAuthor).$(ModName)</ModId>
+        <ModWebsiteUrl>https://github.com/MillzyDev/BonelabFreecam</ModWebsiteUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ModDependencies Include="LavaGang-MelonLoader-0.5.7" />
+    </ItemGroup>
+</Project> 
